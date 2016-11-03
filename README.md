@@ -1,2 +1,2 @@
 #Repo Downloader
-Add-on to download github repositories or sub-repositories
+Firefox add-on to download GitHub repositories or sub-repositories
