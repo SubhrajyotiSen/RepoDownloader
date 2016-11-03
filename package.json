@@ -1,0 +1,18 @@
+{
+  "title": "Repo Downloader",
+  "name": "repo_downloader",
+  "version": "0.1.0",
+  "description": "Add-on to download github repositories or sub-repositories",
+  "main": "index.js",
+  "author": "Subhrajyoti Sen",
+  "permissions": {
+    "multiprocess": true
+  },
+  "engines": {
+    "firefox": ">=38.0a1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "jetpack"
+  ]
+}
