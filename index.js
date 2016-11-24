@@ -14,9 +14,9 @@ var button = ToggleButton({
 });
 
 var myPanel = sdkPanels.Panel({
-  height: 130,
+  height: 120,
   width: 200,
-  contentURL: self.data.url("text-entry.html"),
+  contentURL: self.data.url("ui.html"),
   contentScriptFile: self.data.url("get-repo.js"),
   onHide: handleHide,
   contentScript: "self.port.emit('resize', " +
