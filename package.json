@@ -1,7 +1,7 @@
 {
   "title": "Repo Downloader",
   "name": "repo_downloader",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Add-on to download github repositories or sub-repositories",
   "main": "index.js",
   "author": "Subhrajyoti Sen",

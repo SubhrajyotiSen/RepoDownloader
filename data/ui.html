@@ -8,13 +8,22 @@
   <script type="text/javascript" src="jszip.min.js"></script>
   <script type="text/javascript" src="API.js"></script>
   <script type="text/javascript" src="get-repo.js"></script>
+  <style type="text/css">
+    div#frm *{display:inline}
+    #submit {
+      padding: 0px;
+    }
+  </style>
 </head>
 <body>
   <form>
   Repo sub-directory url:<br>
   <input type='text' name="repoSubDirUrl" id='url'><br>
   <br>
+  <div id="frm">
   <button id='submit' type="button">Download</button>
+  <button id='clear' type="button">Clear</button>
+  </div>
   </form>
 </body>
 </html>
